@@ -340,13 +340,14 @@ All graphics cards are MetaX C500 and the memory is 64G.
 |----figure                                         # images used in documentation							
 |----main_scripts
 |    |----api_large_experiment.py                   # The script for model generating citations with calling APIs
-|    |----api_large_experiment_doubao_oldprompt.py
-|    |----citation_try_code.py                      # The script for open-source model generating citations
-|    |----handling_errors.py                        # The script for open-source model rerunning the errors
-|    |----handling_errors_api.py                    # The script for model rerunning the errors with calling APIs
+|    |----api_large_experiment_confidence_interval.py
+|    |----api_large_experiment_oldprompt.py
+|    |----api_large_experiment_eng_data.py
+|    |----run_api_model_confidence_interval.sh
+|    |----run_open_models_eng.bash
 |----manual_data_scripts								
 |    |----api_answer_generation_close.py            # The script for closed-source model generating 100 complete answers with calling APIs
-|    |----api_answer_generation_glm_4_9B_chat.py    # The script for glm generating 100 complete answers with calling APIs
+|    |----api_answer_generation_glm.py    # The script for glm generating 100 complete answers with calling APIs
 |    |----api_answer_generation_gpt.py              # The script for gpt generating 100 complete answers with calling APIs
 |    |----api_answer_generation_open.py             # The script for open-source model generating 100 complete answers with calling APIs
 |    |----pick_100_citations.py                     # The script for preparing 100 citations for manual annotation (HTML format)
